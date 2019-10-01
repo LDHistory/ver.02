@@ -70,7 +70,6 @@ public class UserServiceImpl implements UserService {
 		session.invalidate();
 	}
 
-	// 로그인이 되어있는지 확인
 	public boolean isLogin(String id) {
 		boolean isLogin = false;
 

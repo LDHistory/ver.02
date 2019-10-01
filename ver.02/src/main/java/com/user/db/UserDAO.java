@@ -2,7 +2,6 @@ package com.user.db;
 
 import java.util.List;
 
-// DB ¿¬°á
 public interface UserDAO {
 	public boolean userLogin(UserDTO dto) throws Exception;
 
